@@ -37,6 +37,11 @@
   --main-bg-color: purple;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -80,17 +85,17 @@
   margin-left: 15px;
 }
 
-.header-container{
+.header-container {
   display: flex;
   justify-content: space-between;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-.main{
+.main {
   padding: 120px 0;
   flex-grow: 1;
 }
